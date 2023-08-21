@@ -1,0 +1,19 @@
+.list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: transparent;
+  border-radius: 10px;
+  margin: 0;
+  padding: 10px;
+}
+.items {
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(25, 111, 204);
+}
+.items:last-child {
+  margin-bottom: 0px;
+}
